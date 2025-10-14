@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-         ¡Hola! Soy Rafael Rodríguez, estudiante de Ingeniería de Sistemas y <br />
+         "¡Hola! Soy Rafael Rodríguez, futuro Ingeniero de Sistemas de 22 años. <br />
          Estoy dando mis primeros pasos sólidos en React y aquí presento mi portafolio inicial       
  </p>
         <a
