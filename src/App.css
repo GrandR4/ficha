@@ -12,8 +12,6 @@
 }
 
 
-  
-
 .App-header {
   background-color: #070127fd;
   min-height: 100vh;
@@ -22,12 +20,49 @@
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(237, 237, 237);
 }
 
 .App-link {
   color: #61dafb;
   display: inline-flex;
   align-items: center;
+}
+
+.form-contacto {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 400px;
+  margin: 0 auto;
+  align-items: stretch;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  background: #222;      
+  color: #fff;          
+  border: 1px solid #6803a3;
+  padding: 8px;
+  font-size: 1rem;
+}
+
+.form-contacto button {
+  padding: 10px;
+  background: #6803a3;
+  color: white;
+  border: none;
+  cursor: pointer;
+  
+}
+
+.contacto-bg {
+  background-color: #000000; 
+  color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
