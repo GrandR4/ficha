@@ -66,3 +66,89 @@
   justify-content: center;
 }
 
+
+.api-container {
+  padding: 20px;
+}
+
+.api-header {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 12px;
+}
+
+.back-button {
+  padding: 8px 12px;
+  background: #1a025a;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.api-title {
+  margin: 0;
+  font-size: 20px;
+}
+
+.api-loading,
+.api-error {
+  padding: 20px;
+}
+
+
+.games-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 220px);
+  gap: 12px;
+}
+
+.game-card {
+  border: 1px solid #eee;
+  border-radius: 6px;
+  overflow: hidden;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.game-thumb {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+}
+
+.game-content {
+  padding: 8px;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.game-title {
+  margin: 0 0 6px;
+  font-size: 14px;
+}
+
+.game-desc {
+  margin: 0;
+  font-size: 12px;
+  color: #555;
+  flex: 1;
+}
+
+.game-meta {
+  margin-top: 8px;
+  font-size: 11px;
+  color: #777;
+}
+
+.game-link {
+  margin-top: 8px;
+  font-size: 12px;
+  color: #007bff;
+  text-decoration: none;
+}
+

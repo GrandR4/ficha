@@ -13,7 +13,10 @@ function Contacto() {
         <textarea name="mensaje" placeholder="Tu mensaje" required />
         <button type="submit">Enviar</button>
       </form>
-      <button onClick={() => navigate('/')} style={{marginTop: '10px', padding: '10px', background:'#', color: ' #fff',  border: 'none', cursor: 'pointer', width: '15%'  }}>Volver</button>
+
+      <div style={{ marginTop: 10 }}>
+        <button onClick={() => navigate('/')} style={{ marginRight: 8, padding: '10px', background: '#333', color: '#fff', border: 'none', cursor: 'pointer' }}>Volver</button>
+      </div>
     </div>
   );
 }
