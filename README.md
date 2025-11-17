@@ -69,6 +69,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
-### Node Index.js 
+### `Node Index.js` 
 
-Ejecutar el comando en la carpeta server para activar un proxy y poder la api
+Ejecutar el comando en la carpeta server para activar un proxy y poder ver la Api
